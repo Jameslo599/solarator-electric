@@ -3487,7 +3487,7 @@ input, select, textarea {
 				height: 3.5em;
 			}
 
-		#banner video {
+		#banner .video {
 			-moz-transform: translateX(50%) translateY(50%);
 			-webkit-transform: translateX(50%) translateY(50%);
 			-ms-transform: translateX(50%) translateY(50%);
@@ -3500,7 +3500,6 @@ input, select, textarea {
 			min-width: 100%;
 			min-height: 100%;
 			overflow: hidden;
-            display: block;
 		}
 
 		#banner:before {
