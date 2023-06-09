@@ -4092,6 +4092,9 @@ b {
         }
 
 /* Footer */
+.mobile {
+    display: none;
+}
 
 #footer {
     padding: 6rem 3rem 3.5rem 3rem ;
@@ -4413,7 +4416,9 @@ form > .fields {
             form > .fields > .field.quarter {
                 width: calc(100% - 1.5em);
             }
-
+    .mobile {
+        display: block;
+    }
 }
 
 label {
@@ -4433,7 +4438,7 @@ label {
     color: #171717;
 }
 .contact-icons a:not(.brands), .copyright a, .logo span, 
-#menu > ul.links > li > a:not(.button) {
+#menu > ul.links > li > a:not(.button), .copyright span {
     background: 
         linear-gradient(to right, rgba(100, 200, 200, 0),
             rgba(100, 200, 200, 0)),
@@ -4445,8 +4450,9 @@ label {
         transition: background-size 400ms;
 }
 .contact-icons a:hover, .copyright a:hover, .logo span:hover, 
-#menu > ul.links > li > a:not(.button):hover {
+#menu > ul.links > li > a:not(.button):hover, .copyright span:hover {
         background-size: 0 0.1em, 100% 0.1em;
+        text-decoration: none;
 }
 #footer .payment li {
     margin-left: 0 !important;
@@ -4491,6 +4497,9 @@ label {
 .copyright a {
     text-decoration: none;
     color: inherit;
+}
+.copyright span {
+    text-decoration: underline;
 }
 .copyright a:hover, .copyright span:hover {
     color: #fff !important;
