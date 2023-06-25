@@ -3177,10 +3177,6 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#header .logo span {
-				display: none;
-			}
-
 			#header nav ul li a[href="#menu"]:only-child {
 				width: 6em;
 				text-indent: 6em;
