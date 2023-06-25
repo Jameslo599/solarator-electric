@@ -2262,7 +2262,7 @@ input, select, textarea {
 		}
 
 		.icon.alt:hover:before {
-			background-color: #B31942;
+			background-color: #003B4F;
             color: #ffffff;
 		}
 
@@ -2624,8 +2624,8 @@ input, select, textarea {
 	}
 
 	section header > :first-child, article header > :first-child {
-		border-bottom-color: #B31942;
-        color: #B31942;
+		border-bottom-color: #088199;
+        color: #088199;
         font-weight: 700;
 	}
 
@@ -2761,14 +2761,21 @@ input, select, textarea {
                 content: '';
                 background-image: url(/images/navy-icon.svg);
                 background-color: #fff;
-                background-repeat: space;
+                background-repeat: no-repeat;
                 display: block;
                 position: absolute;
                 height: 3em;
-                left: 56%;
+                left: 58%;
                 margin-left: -2.5em;
-                top: 0.1em;
+                top: 0.4em;
                 width: 5em;
+            }
+
+            @media screen and (max-width: 1680px) {
+                .spotlight .image:after {
+                    left: 56%;
+                    top: 0.1em;
+                }
             }
 
 			.spotlight .image img {
@@ -3672,6 +3679,13 @@ input, select, textarea {
 	}
 
 /* Custom Code */
+h2 .electrician {
+    color: #088199 !important;
+    border-bottom: 3px solid #088199;
+}
+h3 .electrician {
+    border-bottom: 3px solid #fff;
+}
 b {
     color: #003B4F;
 }
@@ -3763,7 +3777,7 @@ b {
 			position: relative;
 			z-index: 1;
 			width: 55%;
-            box-shadow: 10px 10px 0 0.5px #696969;
+            box-shadow: 10px 10px 0 0.5px #C6CCD0;
 		}
 
 		.about-info.odd .image {
@@ -3782,7 +3796,7 @@ b {
 		}
 
 		.about-info.accent1 {
-			background: #B31942 url("images/overlay.png");
+			background: #003B4F url("images/overlay.png");
 		}
 
 			.about-info.accent1 h2 {
@@ -3798,7 +3812,7 @@ b {
 			}
 
 		.about-info.accent3 {
-			background: #003B4F url("images/overlay.png");
+			background: #E8B00F url("images/overlay.png");
 		}
 
 			.about-info.accent3 h2 {
@@ -3806,7 +3820,7 @@ b {
 			}
 
 		.about-info.accent4 {
-			background: #3a3a3a url("images/overlay.png");
+			background: #08262C url("images/overlay.png");
 		}
 
 			.about-info.accent4 h2 {
@@ -3978,7 +3992,7 @@ b {
 
 .review-container {
     padding: 3em 0 6em 0;
-    background: #EEDEC5 url("images/overlay.png");
+    background: #e9e9e9 url("images/overlay.png");
 }
 
     .review-container .fold{
@@ -4224,7 +4238,7 @@ position: relative;
 #contact {
 border-bottom: solid 1px rgba(0, 0, 0, 0.1);
 overflow-x: hidden;
-background-color: #f2f2f2;
+background-color: #fff;
 }
 
 #contact > .inner {
@@ -4570,7 +4584,7 @@ label {
 body, .black {
   width: 100%;
   height: 10px;
-  background: #E8B00F;
+  background: #003B4F;
 }
 
 .e-with-fixed-bg {
@@ -4587,7 +4601,7 @@ body, .black {
   top: 0;
   left: 0;
   width: 100%;
-  height: 50vh;
+  height: 100%;
 }
 
 .bg {
