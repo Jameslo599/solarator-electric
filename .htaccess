@@ -1,0 +1,9 @@
+RewriteEngine on RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC] RewriteRule ^
+/%1 [NC,L,R] RewriteCond %{REQUEST_FILENAME}.html -f RewriteRule ^
+%{REQUEST_URI}.html [NC,L]
+
+<IfModule deflate_module>
+  # Enable compression for the following file types. AddOutputFilterByType \
+  DEFLATE \ application/javascript \ text/css \ text/html \ text/javascript \
+  text/plain \ text/xml
+</IfModule>
