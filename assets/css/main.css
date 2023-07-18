@@ -4708,3 +4708,15 @@ body,
 .credit {
   opacity: 0;
 }
+
+/* Articles */
+.article-features {
+  list-style: none;
+}
+.article-features p {
+  color: #000000;
+}
+.paragraph-head {
+  font-weight: bold;
+  text-decoration: underline;
+}
