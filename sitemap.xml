@@ -33,6 +33,24 @@
        <priority>0.9500</priority>
   </url>
   <url>
+       <loc>https://www.solaratorelectrictx.com/blog/circuit-breakers.html</loc>
+       <lastmod>2023-07-24T22:52:12+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url>
+  <!-- <url>
+       <loc>https://www.solaratorelectrictx.com/blog/tamper-resistant-receptacles.html</loc>
+       <lastmod>2023-07-24T22:52:12+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url> -->
+  <!-- <url>
+       <loc>https://www.solaratorelectrictx.com/blog/surge-protection.html</loc>
+       <lastmod>2023-07-24T22:52:12+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.9500</priority>
+  </url> -->
+  <url>
        <loc>https://www.solaratorelectrictx.com/sitemap.xml</loc>
        <lastmod>2023-07-24T22:52:12+00:00</lastmod>
        <changefreq>daily</changefreq>
