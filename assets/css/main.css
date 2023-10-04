@@ -2563,10 +2563,11 @@ ul.actions {
   list-style: none;
   margin-left: -1em;
   padding-left: 0;
+  flex-wrap: wrap;
 }
 
 ul.actions li {
-  padding: 0 0 0 1em;
+  padding: 1em;
   vertical-align: middle;
 }
 
@@ -2581,6 +2582,10 @@ ul.actions.special {
 
 ul.actions.special li:first-child {
   padding-left: 0;
+}
+
+ul.actions.special li:last-child {
+  width: 100%;
 }
 
 ul.actions.stacked {
